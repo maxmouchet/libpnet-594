@@ -1,0 +1,5 @@
+[toolchain]
+# There is an issue with libpnet on nightly builds since 2022-11-23.
+# See https://github.com/libpnet/libpnet/issues/594.
+channel = "nightly-2023-01-30"
+components = ["rust-src"]
